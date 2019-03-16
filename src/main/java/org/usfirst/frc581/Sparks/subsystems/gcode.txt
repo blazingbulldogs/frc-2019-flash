@@ -1,0 +1,24 @@
+O10075
+; N1 T16 M06
+N2 G90 G54 G00 X0.25 Y0.25
+N3 S1450 M03
+N4 G43 H16 Z1. M08
+N5 G81 G99 Z-0.375 R0.1 F9.
+N6 X1.5
+N7 Y-1.5
+N8 X0.5
+N9 G80 G00 Z1. M09
+N10 G53 G49 Z0. M05
+N11 M30
+
+
+G97 S1000
+
+
+
+
+
+M09 (Coolant OFF)
+M03 (Rotate spindle in CW ditection)
+G94 (inch/min)
+F2
